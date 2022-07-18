@@ -1,0 +1,233 @@
+body {
+  margin: 0;
+  font: 300 100%/120% "Tahoma", Arial, Helvetica, sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+h3 {
+  padding-left: 10px;
+}
+
+nav {
+  text-align: center;
+  position: relative;
+  border-bottom: solid;
+  background-color: rgb(56, 159, 255);
+  padding-bottom: 0.5em;
+}
+
+nav div {
+  box-sizing: border-box;
+  display: inline-block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-right: 0;
+}
+
+.category_link {
+  position: absolute;
+  left: 0px;
+}
+
+.search_box {
+  margin: 0;
+  margin-top: 0.5em;
+}
+
+.search_box button {
+  background-color: rgb(255, 182, 99);
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.sign_in_nav_wrapper {
+  position: absolute;
+  margin-top: 0.5em;
+  right: 0px;
+  vertical-align: middle;
+
+}
+
+.sign_in_nav_wrapper * {
+  margin-top: 0;
+  margin-bottom: 0;
+
+}
+
+.cart_nav * {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.cart_nav {
+  margin-left: 1em;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  cursor: pointer;
+}
+
+nav a {
+  padding-right: 0.2em;
+}
+
+.product_object {
+  width: 25%;
+  display: inline-block;
+  text-align: center;
+  margin-top: 1em;
+}
+
+.product_object img {
+  width: 80%;
+}
+
+.product_object * {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer {
+  text-align: center;
+  color: blue;
+}
+
+footer a {
+  cursor: pointer;
+}
+
+.product_detail_holder * {
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 2em;
+}
+
+.product_detail_holder br {
+  margin-top: 0;
+}
+
+.product_detail_holder img {
+  width: 30%;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.product_detail_holder p {
+  margin-right: 1em;
+}
+
+.detail_box {
+  width: 20%;
+  margin-right: 1em;
+}
+
+.cart_input_box {
+  width: 200px;
+  height: auto;
+  border: solid;
+  border-radius: 25px;
+  text-align: center;
+
+}
+
+.cart_input_box input {
+  width: 5em;
+}
+
+.cart_input_box p {
+  margin-bottom: 0;
+  padding-bottom: 1;
+}
+
+.cart_input_box button {
+  margin-bottom: 2em;
+}
+
+.login_form {
+  width: 300px;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+}
+
+.login_form * {
+  display: inline-block;
+}
+
+.login_form label {
+  width: 100px;
+}
+
+.login_form input {
+  width: 180px;
+}
+
+.login_form button {
+  margin-left: 45%;
+}
+
+.login_form br {
+  margin-bottom: 1em;
+}
+
+.result * {
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 2em;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.result img {
+  width: 30%;
+}
+
+/* .userCart {
+  display: block;
+} */
+
+table {
+  width: 100%;
+  text-align: left;
+}
+
+th,
+td {
+  width: 25%;
+}
+
+td {
+  padding: 10px;
+}
+
+/* 
+.image_col, .name_col, .price_col, .quantity_col{
+  
+} */
+
+table img {
+  width: 100%;
+}
+
+.quantity_col input {
+  width: 3em;
+}
+
+.total_row td {
+  padding-top: 30px;
+  text-align: center;
+}
+
+.check_out_row td {
+  text-align: center;
+}
+
+.check_out_result {
+  margin-left: 30%;
+  padding-bottom: 200px;
+}
