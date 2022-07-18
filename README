@@ -1,0 +1,29 @@
+/screemshots has some sample screenshots of the web app
+
+
+
+/productservice is for back-end service which use node.js
+Run it with:
+>    node app.js
+
+
+
+/shoppingapp is for front-end service, which is a React app.
+Run it with:
+>    npm start
+
+
+
+To run the app, data of products and users should also be added by mongodb first. 
+
+First install mongoDB, then go to mongoDB dir with:
+>   cd C:\Program Files\MongoDB\Server\5.0
+
+Then, start mongo with:
+>   "./bin/mongo"
+
+After mongo start, input data into productCollection and userCollection.
+Here are some sample insert codes for mongodb:
+
+db.productCollection.insert({name: 'iPhone 12', 'category': 'Phones', 'price': 8000, manufacturer: 'Apple Inc.', 'productImage': 'images/iPhone12.jpg', 'description': 'Most advanced dual‑camera system ever.'})
+db.userCollection.insert({'username': 'leo', 'password': '123', 'cart':[], 'totalnum': 0})
